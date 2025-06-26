@@ -4,7 +4,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navigate to="/user" replace />} />
+        <Route path="/" element={<Navigate to="/" replace />} />
 
         <Route path="*" element={<h1>Page Not Found</h1>} />
       </Routes>
