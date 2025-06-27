@@ -1,0 +1,25 @@
+/* src/components/UserCard/UserCard.css */
+.user-card {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.user-card .avatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.user-card .info .name {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.user-card .info .login {
+  margin: 0;
+  color: #666;
+}
