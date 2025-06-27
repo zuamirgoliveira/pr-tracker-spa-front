@@ -1,13 +1,45 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- Responsivo em dispositivos móveis -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-  </head>
-  <body>
-    <div id="root"></div>
+
+    <!-- Título e descrição para SEO -->
+    <title>PR Tracker • Seu Painel de Pull Requests</title>
+    <meta
+      name="description"
+      content="Acompanhe seu perfil, repositórios e pull requests do GitHub em um painel unificado."
+    />
+
+    <!-- Favicon customizado (coloque o seu em public/favicon.ico ou .svg) -->
+    <link rel="icon" href="/favicon.ico" />
+
+    <!-- Tema para navegadores em modo mobile -->
+    <meta name="theme-color" content="#24292e" />
+
+    <!-- Open Graph / Social Preview -->
+    <meta property="og:title" content="PR Tracker" />
+    <meta
+      property="og:description"
+      content="Acompanhe seu perfil, repositórios e pull requests do GitHub em um painel unificado."
+    />
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:url" content="https://seu-dominio.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Ícone para Apple Touch e outros -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Manifest para PWA (se futuramente quiser transformar em app) -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Entrada do bundle gerado pelo Vite -->
     <script type="module" src="/src/main.tsx"></script>
+  </head>
+
+  <body>
+    <!-- O React monta aqui -->
+    <div id="root"></div>
   </body>
 </html>
